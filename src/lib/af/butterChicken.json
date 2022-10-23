@@ -1,0 +1,50 @@
+{
+    "title": "Botterhoender",
+    "summary": "Die ongelooflike Noord-Indiese gereg.",
+    "jump": "Spring na resep",
+    "about": {
+        "title": "Oor botterhoender",
+        "content": "Botterhoender, ook bekend as murgh makhani, is 'n kerrie het van hoenderstukke en 'n spesiale sous gemaak. Die sous het van speserye, tamaties, jogurt en botter gemaak. Dit het \"Kundan Lal Gujral\" in Noord-Indië geskep, as 'n manier om Tandoori Chicken uitdroog te verhoed. Botterhoender kan op sy eie geëet het, maar kan het met pizzas, samosas en ander kosse gekombineer.",
+        "imageCaption": "'n Bak na botterhoender. stu_spivack, CC BY-SA 2.0, via Wikimedia Commons"
+    },
+    "history": {
+        "title": "Geskiedenis",
+        "content": "Ten spyte van wat jy dalk dink, is botterhoender jonk. Dit het in 1948 bogenoemde Kundan Lal Gujral gemaak. Kundan was n' sakeman. hy het Tandoori hoender (hoender stukkies het in speserye en jogurt gemarineer,en gaar oor steenkool) op spiese geverkoop. Hy het opgemerk dat as dit nie verkoop word nie, die Tandoori Hoender vinnig sal uitdroog.. Hy het 'n oplossing geskep: 'n Basiese sous, met tamaties, botter, room en 'n paar speserye. Hy het die hoender in die sous geplaas, en die sous het die vog ingehou. Hy het die beste hoender geskep wat bestaan.",
+        "content2": "Met verloop van tyd het die resep effens verander en verbeter. Dit is een van die gewildste Indiese kerries ter wêreld. Dit het nou bedien met roti aan die kant gereeld, maar jy kan dit gebruik op pizzas, binnekant van samosas, as 'n pasteivulsel, en moontlik meer.",
+        "imageCaption": "Portret van Kundan Lal Gujral. Moti Mahal Delux Management Services Pvt. Ltd., CC BY-SA 4.0, via Wikimedia Commons"
+    },
+    "recipe": "Resep",
+    "serves": "Lewer 4",
+    "ingredients": {
+        "title": "Bestanddele",
+        "fillets": "5-6 Hoenderfilette",
+        "cream": "250ml vars room",
+        "tomato": "2 Tamaties",
+        "butter": "125g botter",
+        "spice": "Suhana Butter chicken spice",
+        "coriander": "'n Handvol koljander",
+        "marinate": {
+            "title": "Marineer bestanddele",
+            "ggarlic": "1 tl gemmerknoffel",
+            "salt": "Sout na smaak (Besluit jou eie hoeveelheid)",
+            "cspice": "1 tl Hoender Spice",
+            "bspice": "1 tl BBQ speserye"
+        }
+    },
+    "method": {
+        "title": "Metode",
+        "slice": "Sny die hoender in klein blokkies (sowat 2 cm by 2 cm)",
+        "mix": "meng die hoender in die marineerbestanddele, en laat dit vir 30 minute staan",
+        "grate": "Rasper die tamaties, soteer dan die gerasperde tamaties in 'n braaipan, dan laat die gerasperde tamaties eenkant wanneer dit gaar is",
+        "addButter": "Voeg die botter in 'n pot, dan voeg die hoender by die pot",
+        "cookTender": "Laat die hoender kook totdat dit sag is, maar is nie hard nie",
+        "addTomatoes": "Voeg die tamaties in die pot",
+        "cookMore": "Laat kook vir nog 5 minute",
+        "sauce": "In 'n aparte bak, Neem jou botter hoender speserye, en voeg dit by jou vars room",
+        "pour": "Gooi die bak in die hoender, en laat dit vir 5-10 minute kook",
+        "dish": "Skep op en sit voor saam met rotis"
+    },
+    "references": {
+        "title": "Verwysings"
+    }
+}
