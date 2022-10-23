@@ -18,6 +18,12 @@ const config: Config = {
         loader: async () => (await import('./en/butterChicken.json')).default
     },
     {
+        locale: 'en',
+        key: 'homePage',
+        routes: ['/'],
+        loader: async () => (await import('./en/homePage.json')).default
+    },
+    {
         locale: 'af',
         key: 'common',
         loader: async () => (await import('./af/common.json')).default
@@ -27,6 +33,12 @@ const config: Config = {
         key: 'butterChicken',
         routes: ['/posts/ButterChicken'],
         loader: async () => (await import('./af/butterChicken.json')).default
+    },
+    {
+        locale: 'af',
+        key: 'homePage',
+        routes: ['/'],
+        loader: async () => (await import('./af/homePage.json')).default
     },
     ]
 }

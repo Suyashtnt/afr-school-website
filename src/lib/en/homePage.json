@@ -1,0 +1,11 @@
+{
+    "welcome": "Welcome to this blog",
+    "subtitle": "You can find the posts below",
+    "goto": "Goto posts",
+    "posts": [
+        {
+            "title": "Butter chicken",
+            "summary": "The incredible Northern-Indian dish."
+        }
+    ]
+}

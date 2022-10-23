@@ -3,7 +3,12 @@
 	import Atropos from 'atropos/svelte';
 </script>
 
-<article class="text-base lg:text-xl prose prose-truegray min-w-full">
+<svelte:head>
+	<title>{$t('butterChicken.title')}</title>
+	<meta name="description" content={$t('butterChicken.summary')} />
+</svelte:head>
+
+<article class="text-base text-xl lg:text-2xl prose prose-truegray min-w-full">
 	<div class="py-8 rounded-2xl">
 		<h1 class="color-[#ce6f08] text-center text-size-6xl lg:text-size-8xl">
 			{$t('butterChicken.title')}
@@ -21,23 +26,27 @@
 			{$t('butterChicken.about.title')}
 		</h2>
 
-		<div class="grid grid-cols-3 gap-12">
-			<p class="col-span-2">
+		<div class="flex gap-12 flex-col-reverse md:flex-row">
+			<p class="w-full md:w-2/3">
 				{$t('butterChicken.about.content')}
 			</p>
 
-			<Atropos>
-				<figure class="bg-white pa-2 rounded-xl">
-					<a href="https://commons.wikimedia.org/wiki/File:Chicken_makhani.jpg">
+			<Atropos class="w-full md:w-1/3">
+				<a href="https://commons.wikimedia.org/wiki/File:Chicken_makhani.jpg">
+					<figure class="bg-white pa-4 rounded-xl">
 						<img
 							src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Chicken_makhani.jpg"
 							alt="Chicken Makhani, murgh makhani, or Butter Chicken"
 							class="rounded-md shadow-lg transition"
+							loading="lazy"
+							data-atropos-offset="-2"
 						/>
-					</a>
 
-					<figcaption>{$t('butterChicken.about.imageCaption')}</figcaption>
-				</figure>
+						<figcaption data-atropos-offset="5">
+							{$t('butterChicken.about.imageCaption')}
+						</figcaption>
+					</figure>
+				</a>
 			</Atropos>
 		</div>
 	</section>
@@ -47,26 +56,30 @@
 			{$t('butterChicken.history.title')}
 		</h2>
 
-		<div class="grid grid-cols-3 gap-12">
-			<p class="col-span-2">
+		<div class="flex flex-row gap-12">
+			<p class="w-3/5">
 				{$t('butterChicken.history.content')}
 				<br />
 				<br />
 				{$t('butterChicken.history.content2')}
 			</p>
 
-			<Atropos>
-				<figure class="pa-2 rounded-xl bg-white">
-					<a href="https://commons.wikimedia.org/wiki/File:Kundan-Lal-Gujral.jpg">
+			<Atropos class="w-2/5">
+				<a href="https://commons.wikimedia.org/wiki/File:Kundan-Lal-Gujral.jpg">
+					<figure class="pa-4 rounded-xl bg-white">
 						<img
 							src="https://upload.wikimedia.org/wikipedia/commons/2/23/Kundan-Lal-Gujral.jpg"
 							alt="Portrait of Kundan Lal Gujral"
 							class="rounded-md shadow-lg hover:shadow-2xl transition"
+							loading="lazy"
+							data-atropos-offset="-2"
 						/>
-					</a>
 
-					<figcaption>{$t('butterChicken.history.imageCaption')}</figcaption>
-				</figure>
+						<figcaption data-atropos-offset="5">
+							{$t('butterChicken.history.imageCaption')}
+						</figcaption>
+					</figure>
+				</a>
 			</Atropos>
 		</div>
 	</section>

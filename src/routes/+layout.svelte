@@ -8,7 +8,7 @@
 <div class="app">
 	<Header />
 
-	<main>
+	<main data-sveltekit-prefetch>
 		<slot />
 	</main>
 </div>

@@ -1,4 +1,46 @@
+<script lang="ts">
+	import { t } from '$lib/translations';
+	import Atropos from 'atropos/svelte';
+
+	$: posts = [
+		{
+			image: 'https://upload.wikimedia.org/wikipedia/commons/3/3c/Chicken_makhani.jpg',
+			title: $t('homePage.posts.0.title'),
+			summary: $t('homePage.posts.0.summary'),
+			link: '/posts/ButterChicken'
+		}
+	];
+</script>
+
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta
+		name="description"
+		content="Random blog for random school projects that need something like this"
+	/>
 </svelte:head>
+
+<h1 class="text-center text-4xl md:text-6xl">{$t('homePage.welcome')}</h1>
+<h2 class="text-center italic color-truegray text-xl md:text-3xl">{$t('homePage.subtitle')}</h2>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-screen">
+	{#each posts as post}
+		<a href={post.link} class="text-black decoration-none">
+			<Atropos>
+				<div class="bg-white rounded-2xl flex flex-col">
+					<img src={post.image} class="w-full h-full rounded-2xl" alt="" />
+					<div class="px-4 pb-2">
+						<p class="text-4xl text-center" data-atropos-offset="5">{post.title}</p>
+						<p class="text-2xl" data-atropos-offset="3">{post.summary}</p>
+						<button
+							class="w-full pa-2 border-none bg-blue color-white text-2xl rounded-xl"
+							data-atropos-offset="7"
+						>
+							{$t('homePage.goto')}
+						</button>
+					</div>
+				</div>
+			</Atropos>
+		</a>
+	{/each}
+</div>
