@@ -20,8 +20,8 @@
 	/>
 </svelte:head>
 
-<h1 class="text-center text-4xl md:text-7xl">{$t('homePage.welcome')}</h1>
-<h2 class="text-center italic color-black text-2xl md:text-4xl">
+<h1 class="text-center text-4xl md:text-7xl mb-0">{$t('homePage.welcome')}</h1>
+<h2 class="text-center italic color-black text-2xl md:text-4xl mb-6">
 	{$t('homePage.subtitle')}
 </h2>
 
