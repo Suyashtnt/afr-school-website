@@ -20,8 +20,10 @@
 	/>
 </svelte:head>
 
-<h1 class="text-center text-4xl md:text-6xl">{$t('homePage.welcome')}</h1>
-<h2 class="text-center italic color-truegray text-xl md:text-3xl">{$t('homePage.subtitle')}</h2>
+<h1 class="text-center text-4xl md:text-7xl">{$t('homePage.welcome')}</h1>
+<h2 class="text-center italic color-black text-2xl md:text-4xl">
+	{$t('homePage.subtitle')}
+</h2>
 
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-screen">
 	{#each posts as post}
@@ -33,7 +35,7 @@
 						<p class="text-4xl text-center" data-atropos-offset="5">{post.title}</p>
 						<p class="text-2xl" data-atropos-offset="3">{post.summary}</p>
 						<button
-							class="w-full pa-2 border-none bg-blue color-white text-2xl rounded-xl"
+							class="w-full pa-2 border-none bg-blue text-3xl rounded-xl"
 							data-atropos-offset="7"
 						>
 							{$t('homePage.goto')}

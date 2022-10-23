@@ -13,12 +13,12 @@
 		<h1 class="color-[#ce6f08] text-center text-size-6xl lg:text-size-8xl">
 			{$t('butterChicken.title')}
 		</h1>
-		<summary
-			class="text-(center size-xl) lg:text-size-3xl italic flex flex-col content-center gap-2"
-		>
-			{$t('butterChicken.summary')}
+		<div class="text-(center size-2xl) lg:text-size-3xl italic flex flex-col content-center">
+			<p class="leading-3">
+				{$t('butterChicken.summary')}
+			</p>
 			<a href="#recipe" class="text">({$t('butterChicken.jump')})</a>
-		</summary>
+		</div>
 	</div>
 
 	<section>
@@ -102,7 +102,7 @@
 			</ul>
 
 			<section>
-				<h4 class="color-[#ce6f08]">{$t('butterChicken.ingredients.marinate.title')}</h4>
+				<h3 class="color-[#ce6f08]">{$t('butterChicken.ingredients.marinate.title')}</h3>
 
 				<ul>
 					<li>{$t('butterChicken.ingredients.marinate.ggarlic')}</li>
