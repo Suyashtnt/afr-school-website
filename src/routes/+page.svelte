@@ -1,10 +1,12 @@
 <script lang="ts">
 	import { t } from '$lib/translations';
 	import Atropos from 'atropos/svelte';
+	import Img from '$lib/components/Image.svelte';
+	import ChickenMakhani from '$lib/assets/Chicken_makhani.jpg?w=300;600;800&imagetools';
 
 	$: posts = [
 		{
-			image: 'https://upload.wikimedia.org/wikipedia/commons/3/3c/Chicken_makhani.jpg',
+			image: ChickenMakhani,
 			title: $t('homePage.posts.0.title'),
 			summary: $t('homePage.posts.0.summary'),
 			link: '/posts/ButterChicken'
@@ -30,7 +32,7 @@
 		<a href={post.link} class="text-black decoration-none">
 			<Atropos>
 				<div class="bg-white rounded-2xl flex flex-col">
-					<img src={post.image} class="w-full h-full rounded-2xl" alt="" />
+					<Img src={post.image} class="w-full h-full rounded-2xl" alt="" />
 					<div class="px-4 pb-2">
 						<p class="text-4xl text-center" data-atropos-offset="5">{post.title}</p>
 						<p class="text-2xl" data-atropos-offset="3">{post.summary}</p>
