@@ -1,6 +1,13 @@
 # create-svelte
 
+## Attribution
+- `src/lib/assets/Chicken_makhani.jpg` <a href="https://commons.wikimedia.org/wiki/File:Chicken_makhani.jpg">stu_spivack</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, via Wikimedia Commons
+
+- `src/lib/assets/Kundan-Lal-Gujral.jpg` <a href="https://commons.wikimedia.org/wiki/File:Kundan-Lal-Gujral.jpg">Moti Mahal Delux Management Services Pvt. Ltd.</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+
+
 
 ## Creating a project
 

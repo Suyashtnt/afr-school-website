@@ -1,6 +1,9 @@
 <script lang="ts">
+	import ChickenMakhani from '$lib/assets/Chicken_makhani.jpg?w=300;600;800&imagetools';
+	import Kundan from '$lib/assets/Kundan-Lal-Gujral.jpg?w=350;500&imagetools';
 	import { t } from '$lib/translations';
 	import Atropos from 'atropos/svelte';
+	import Img from '$lib/components/Image.svelte';
 </script>
 
 <svelte:head>
@@ -31,14 +34,13 @@
 				{$t('butterChicken.about.content')}
 			</p>
 
-			<Atropos class="w-full md:w-1/3">
-				<a href="https://commons.wikimedia.org/wiki/File:Chicken_makhani.jpg">
+			<a href="https://commons.wikimedia.org/wiki/File:Chicken_makhani.jpg" class="w-full md:w-1/3">
+				<Atropos>
 					<figure class="bg-white pa-4 rounded-xl">
-						<img
-							src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Chicken_makhani.jpg"
+						<Img
+							src={ChickenMakhani}
 							alt="Chicken Makhani, murgh makhani, or Butter Chicken"
 							class="rounded-md shadow-lg transition"
-							loading="lazy"
 							data-atropos-offset="-2"
 						/>
 
@@ -46,8 +48,8 @@
 							{$t('butterChicken.about.imageCaption')}
 						</figcaption>
 					</figure>
-				</a>
-			</Atropos>
+				</Atropos>
+			</a>
 		</div>
 	</section>
 
@@ -64,14 +66,13 @@
 				{$t('butterChicken.history.content2')}
 			</p>
 
-			<Atropos class="w-2/5">
-				<a href="https://commons.wikimedia.org/wiki/File:Kundan-Lal-Gujral.jpg">
+			<a href="https://commons.wikimedia.org/wiki/File:Kundan-Lal-Gujral.jpg" class="w-2/5">
+				<Atropos>
 					<figure class="pa-4 rounded-xl bg-white">
-						<img
-							src="https://upload.wikimedia.org/wikipedia/commons/2/23/Kundan-Lal-Gujral.jpg"
+						<Img
+							src={Kundan}
 							alt="Portrait of Kundan Lal Gujral"
 							class="rounded-md shadow-lg hover:shadow-2xl transition"
-							loading="lazy"
 							data-atropos-offset="-2"
 						/>
 
@@ -79,8 +80,8 @@
 							{$t('butterChicken.history.imageCaption')}
 						</figcaption>
 					</figure>
-				</a>
-			</Atropos>
+				</Atropos>
+			</a>
 		</div>
 	</section>
 

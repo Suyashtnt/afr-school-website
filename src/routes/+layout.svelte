@@ -1,5 +1,5 @@
 <script>
-	import Header from '$lib/Header.svelte';
+	import Header from './Header.svelte';
 	import './styles.css';
 	import 'uno.css';
 	import 'atropos/css/min';
