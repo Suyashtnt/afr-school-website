@@ -37,10 +37,12 @@
 			<a href="https://commons.wikimedia.org/wiki/File:Chicken_makhani.jpg" class="w-full md:w-1/3">
 				<Atropos>
 					<figure class="bg-white pa-4 rounded-xl">
+						<!-- Since people are going to see this image commonly, lazy loading will hurt performance more than it will gain -->
 						<Img
 							src={ChickenMakhani}
 							alt="Chicken Makhani, murgh makhani, or Butter Chicken"
 							class="rounded-md shadow-lg transition"
+							lazy={false}
 							data-atropos-offset="-2"
 						/>
 
