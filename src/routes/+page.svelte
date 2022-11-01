@@ -32,7 +32,7 @@
 		<a href={post.link} class="text-black decoration-none">
 			<Atropos>
 				<div class="bg-white rounded-2xl flex flex-col">
-					<Img src={post.image} class="w-full h-full rounded-2xl" alt="" />
+					<Img src={post.image} class="w-full h-full rounded-2xl" alt="" lazy={false} />
 					<div class="px-4 pb-2">
 						<p class="text-4xl text-center" data-atropos-offset="5">{post.title}</p>
 						<p class="text-2xl" data-atropos-offset="3">{post.summary}</p>
