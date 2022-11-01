@@ -2,7 +2,7 @@
 	import { t } from '$lib/translations';
 	import Atropos from 'atropos/svelte';
 	import Img from '$lib/components/Image.svelte';
-	import ChickenMakhani from '$lib/assets/Chicken_makhani.jpg?w=300;600;800&imagetools';
+	import ChickenMakhani from '$lib/assets/Chicken_makhani.jpg?w=500;300;600;800&imagetools';
 
 	$: posts = [
 		{

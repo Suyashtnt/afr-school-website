@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ChickenMakhani from '$lib/assets/Chicken_makhani.jpg?w=300;600;800&imagetools';
+	import ChickenMakhani from '$lib/assets/Chicken_makhani.jpg?w=500;300;600;800&imagetools';
 	import Kundan from '$lib/assets/Kundan-Lal-Gujral.jpg?w=350;500&imagetools';
 	import { t } from '$lib/translations';
 	import Atropos from 'atropos/svelte';
