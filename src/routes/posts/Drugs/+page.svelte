@@ -20,11 +20,11 @@
 		<div class="flex flex-col justify-center items-center pa-6 bg-white rounded-xl">
 			<p class="text-(xl center) ">
 				This page <span class="font-bold text-2xl">requires</span> JS to run (Source code is
-				availible on my github if you don't trust me).
+				available on my github if you don't trust me).
 				<br />
 				It also contains a bunch of stuff about (as you can guess from the title) drugs.
 				<br />
-				This is also an extrememly 1-sided argument about why drugs are bad because I'm too lazy to do
+				This is also an extremely 1-sided argument about why drugs are bad because I'm too lazy to do
 				proper research
 				<br />
 			</p>
