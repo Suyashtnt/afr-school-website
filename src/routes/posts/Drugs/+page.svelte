@@ -24,8 +24,7 @@
 				<br />
 				It also contains a bunch of stuff about (as you can guess from the title) drugs.
 				<br />
-				This is also an extremely 1-sided argument about why drugs are bad because I'm too lazy to do
-				proper research
+				This is also extremely 1-sided (on the side of bad), because I'm too lazy to do properly research
 				<br />
 			</p>
 
@@ -42,7 +41,8 @@
 
 <div>
 	<h1 class="text-(6xl red-600 center)">
-		Welcome to dangerous realm of <span class="glitch text-red-600" data-text="drugs">drugs</span>.
+		Welcome to dangerous realm of <br />
+		<span class="glitch text-red-600" data-text="drugs">drugs</span>.
 	</h1>
 	<h2 class="text-(2xl center) italic">Rather do not enjoy your stay and instead leave.</h2>
 </div>
@@ -61,6 +61,7 @@
 		<li>Alcohol</li>
 		<li>Caffeine</li>
 		<li>Morphine</li>
+		<li>Penicillin</li>
 		<li>Panado (Paracetamol)</li>
 	</ul>
 	<p>The definition of drug is</p>
@@ -68,7 +69,8 @@
 		a substance other than food intended to affect the structure or function of the body
 	</blockquote>
 	<p>
-		This boils down to "if it isn't food or water and it's intended to affect the body, it's a drug"
+		This boils down to "if it isn't food or water and it's intended to affect the body, it's a
+		drug." And yes, that includes the caffeine in your coffee.
 	</p>
 </div>
 

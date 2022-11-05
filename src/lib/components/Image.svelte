@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let src: {
 		sources: Record<string, { src: string }[]>;
-		fallback: { src: string | null | undefined };
+		fallback: { src: string };
 	};
 	export let alt: string | null | undefined;
 	export let lazy = true;
