@@ -1,15 +1,19 @@
 {
-    "welcome": "Welcome to this blog",
-    "subtitle": "You can find the posts below",
-    "goto": "View post",
-    "posts": [
-        {
-            "title": "Butter chicken",
-            "summary": "The incredible Northern-Indian dish."
-        },
-        {
-            "title": "Drugs",
-            "summary": "A 1-sided argument about the dangers of drugs"
-        }
-    ]
+	"welcome": "Welcome to this blog",
+	"subtitle": "You can find the posts below",
+	"goto": "View post",
+	"posts": [
+		{
+			"title": "Butter chicken",
+			"summary": "The incredible Northern-Indian dish."
+		},
+		{
+			"title": "Drugs",
+			"summary": "A 1-sided argument about the dangers of drugs"
+		},
+		{
+			"title": "Stay Private",
+			"summary": "A short guide to keeping and tracking your privacy online"
+		}
+	]
 }

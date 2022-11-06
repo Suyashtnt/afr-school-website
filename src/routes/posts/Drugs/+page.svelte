@@ -45,13 +45,13 @@
 {/if}
 
 <article>
-	<div>
+	<section>
 		<h1 class="text-(6xl red-600 center)">
 			Welcome to dangerous realm of <br />
 			<span class="glitch text-red-600" data-text="drugs">drugs</span>.
 		</h1>
 		<h2 class="text-(2xl center) italic">Rather do not enjoy your stay and instead leave.</h2>
-	</div>
+	</section>
 
 	<section class="prose prose-truegray text-2xl">
 		<p>Drugs. When you mention them, most people think of things like</p>

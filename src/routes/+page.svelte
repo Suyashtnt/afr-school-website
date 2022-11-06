@@ -4,6 +4,7 @@
 	import Img from '$lib/components/Image.svelte';
 	import ChickenMakhani from '$lib/assets/Chicken_makhani.jpg?w=500;300;600;800&imagetools';
 	import Drugs from '$lib/assets/drugs.webp?w=500;300;600;800&imagetools';
+	import AdVault from '$lib/assets/AdNauseum.png?w=500;300;600;800&imagetools';
 
 	$: posts = [
 		{
@@ -17,6 +18,12 @@
 			title: $t('homePage.posts.1.title'),
 			summary: $t('homePage.posts.1.summary'),
 			link: '/posts/Drugs'
+		},
+		{
+			image: AdVault,
+			title: $t('homePage.posts.2.title'),
+			summary: $t('homePage.posts.2.summary'),
+			link: '/posts/StayPrivate'
 		}
 	];
 </script>
@@ -39,7 +46,7 @@
 		<a href={post.link} class="text-black decoration-none">
 			<Atropos>
 				<div class="bg-white rounded-2xl flex flex-col">
-					<Img src={post.image} class="w-full h-64 rounded-2xl" alt="" lazy={false} />
+					<Img src={post.image} class="w-full h-64 rounded-2xl object-cover" alt="" lazy={false} />
 					<div class="px-4 pb-2">
 						<p class="text-4xl text-center" data-atropos-offset="5">{post.title}</p>
 						<p class="text-2xl" data-atropos-offset="3">{post.summary}</p>
