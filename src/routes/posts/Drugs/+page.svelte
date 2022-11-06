@@ -17,7 +17,7 @@
 
 {#if overlayOpen}
 	<div
-		class="w-screen h-screen flex flex-col justify-center items-center overlay absolute top-0 left-0"
+		class="w-screen h-screen flex flex-col justify-center items-center overlay absolute top-0 left-0 bg-white"
 		transition:fly={{ duration: 800, y: -600 }}
 	>
 		<!-- TODO: add github link to this page -->
@@ -170,7 +170,7 @@
 
 <style>
 	.overlay {
-		background-image: url(https://68.media.tumblr.com/ebd489e98ac023499101f56f195437c7/tumblr_n5mufrqAk21tc216ao9_500.gif);
+		background-image: url(https://68.media.tumblr.com/ebd489e98ac023499101f56f195437c7/tumblr_n5mufrqAk21tc216ao9_500.gif) !important;
 		background-size: cover;
 		background-repeat: none;
 	}
