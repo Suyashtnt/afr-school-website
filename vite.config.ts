@@ -4,7 +4,7 @@ import UnoCSS from 'unocss/vite'
 import { extractorSvelte, presetUno, presetTypography, transformerVariantGroup } from 'unocss'
 import { imagetools } from 'vite-imagetools';
 
-const supportedExtensions = ['png', 'jpg', 'jpeg'];
+const supportedExtensions = ['png', 'jpg', 'jpeg', 'webp'];
 
 const config: UserConfig = {
 	plugins: [
